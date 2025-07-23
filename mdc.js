@@ -1,5 +1,3 @@
-console.log(mdc(24, 9))
-
 function calcularMDC(a, b) {
   while (b !== 0) {
     let resto = a % b;
@@ -9,4 +7,5 @@ function calcularMDC(a, b) {
   return a;
 }
 
-console.log(calcularMDC(48, 18)); 
+console.log(calcularMDC(24, 9));   // Saída: 3
+console.log(calcularMDC(48, 18));  // Saída: 6
